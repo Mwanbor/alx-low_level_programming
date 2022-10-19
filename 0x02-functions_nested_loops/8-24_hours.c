@@ -3,6 +3,7 @@
  * jack_bauer - prints every minute of the day
  */
 void jack_bauer(void);
+
 {
 	int hour, minute;
 
@@ -14,6 +15,7 @@ void jack_bauer(void);
 			_putchar((hour % 10) + '0');
 			_putchar(':');
 			_putchar((minute / 10) + '0');
+			_putchar((minute % 10) + '0');
 			_putchar('\n');
 		}
 	}
